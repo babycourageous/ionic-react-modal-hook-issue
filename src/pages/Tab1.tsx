@@ -13,7 +13,9 @@ function ModalHookTest({ onDismiss }: any) {
   return (
     <>
       <p>MODAL</p>
-      <button onClick={onDismiss}>click</button>
+      <button style={{ padding: '1.25rem' }} onClick={onDismiss}>
+        CLOSE
+      </button>
     </>
   )
 }
